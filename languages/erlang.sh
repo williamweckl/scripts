@@ -7,7 +7,7 @@
 #
 # Include in your builds via
 # source /dev/stdin <<< "$(curl -sSL https://raw.githubusercontent.com/codeship/scripts/master/languages/erlang.sh)"
-ERLANG_VERSION=${ERLANG_VERSION:="18.3"}
+ERLANG_VERSION=${ERLANG_VERSION:="19.2"}
 ERLANG_PATH=${ERLANG_PATH:=$HOME/erlang}
 CACHED_DOWNLOAD="${HOME}/cache/erlang-OTP-${ERLANG_VERSION}.tar.gz"
 
